@@ -1,0 +1,11 @@
+﻿Build started 17/1/2559 17:45:22.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libmllr\libmllr.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         F:\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\..\..\..\..\lib\Release\libmllr.lib" sphinxbase.lib /LIBPATH:..\..\..\..\..\sphinxbase\bin\Release\ /NOLOGO .\Release/mllr.obj
+         .\Release/mllr_io.obj
+         libmllr.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libmllr\.\..\..\..\..\lib\Release\libmllr.lib
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libmllr\libmllr.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

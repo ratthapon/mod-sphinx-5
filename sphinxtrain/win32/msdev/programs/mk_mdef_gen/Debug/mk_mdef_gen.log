@@ -1,0 +1,69 @@
+﻿Build started 17/1/2559 17:47:01.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\mk_mdef_gen\mk_mdef_gen.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../../include /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\programs\mk_mdef_gen\hash.c ..\..\..\..\src\programs\mk_mdef_gen\heap.c ..\..\..\..\src\programs\mk_mdef_gen\main.c ..\..\..\..\src\programs\mk_mdef_gen\mk_mdef_gen.c ..\..\..\..\src\programs\mk_mdef_gen\parse_cmd_ln.c
+         parse_cmd_ln.c
+         mk_mdef_gen.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(174): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(293): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(306): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(488): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(670): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(671): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(672): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(673): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(710): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(732): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(733): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(734): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(735): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(914): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(919): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(920): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(921): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\mk_mdef_gen.c(922): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+         main.c
+         heap.c
+         hash.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\hash.c(96): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\hash.c(164): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_mdef_gen\hash.c(230): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+         Generating Code...
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\..\bin\Debug/mk_mdef_gen.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\sphinxbase\bin\Debug sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\..\..\..\bin\Debug/mk_mdef_gen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\..\bin\Debug\mk_mdef_gen.lib" /MACHINE:X86 /SAFESEH .\Debug/hash.obj
+         .\Debug/heap.obj
+         .\Debug/main.obj
+         .\Debug/mk_mdef_gen.obj
+         .\Debug/parse_cmd_ln.obj
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libclust.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libcommon.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libio.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmllr.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmodinv.lib
+     1>hash.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         mk_mdef_gen.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\mk_mdef_gen\.\..\..\..\..\bin\Debug\mk_mdef_gen.exe
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\mk_mdef_gen\mk_mdef_gen.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83

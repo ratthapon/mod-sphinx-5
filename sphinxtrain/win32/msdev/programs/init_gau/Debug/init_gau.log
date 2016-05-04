@@ -1,0 +1,29 @@
+﻿Build started 17/1/2559 17:47:08.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\init_gau\init_gau.vcxproj" on node 8 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../../include /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\programs\init_gau\accum.c ..\..\..\..\src\programs\init_gau\init_gau.c ..\..\..\..\src\programs\init_gau\main.c ..\..\..\..\src\programs\init_gau\parse_cmd_ln.c
+         parse_cmd_ln.c
+         main.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\init_gau\main.c(130): warning C4244: '=' : conversion from 'double' to 'mfcc_t', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\init_gau\main.c(135): warning C4244: '=' : conversion from 'double' to 'mfcc_t', possible loss of data
+         init_gau.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\init_gau\init_gau.c(227): warning C4013: 'str2words' undefined; assuming extern returning int
+         accum.c
+         Generating Code...
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\..\bin\Debug/init_gau.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\sphinxbase\bin\Debug sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\..\..\..\bin\Debug/init_gau.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\..\bin\Debug\init_gau.lib" /MACHINE:X86 /SAFESEH .\Debug/accum.obj
+         .\Debug/init_gau.obj
+         .\Debug/main.obj
+         .\Debug/parse_cmd_ln.obj
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libclust.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libcommon.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libio.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmllr.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmodinv.lib
+     1>accum.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         init_gau.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\init_gau\.\..\..\..\..\bin\Debug\init_gau.exe
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\init_gau\init_gau.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.74

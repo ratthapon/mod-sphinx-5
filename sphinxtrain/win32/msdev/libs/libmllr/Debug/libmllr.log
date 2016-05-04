@@ -1,0 +1,16 @@
+﻿Build started 17/1/2559 17:46:59.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libmllr\libmllr.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\include /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\libs\libmllr\mllr.c ..\..\..\..\src\libs\libmllr\mllr_io.c
+         mllr_io.c
+         mllr.c
+         Generating Code...
+       Lib:
+         F:\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\..\..\..\..\lib\Debug\libmllr.lib" /NOLOGO .\Debug/mllr.obj
+         .\Debug/mllr_io.obj
+         libmllr.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libmllr\.\..\..\..\..\lib\Debug\libmllr.lib
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libmllr\libmllr.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.34

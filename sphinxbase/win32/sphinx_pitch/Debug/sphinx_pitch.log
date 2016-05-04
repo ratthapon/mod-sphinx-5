@@ -1,0 +1,14 @@
+﻿Build started 17/1/2559 17:45:10.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxbase\win32\sphinx_pitch\sphinx_pitch.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../include /I../../include/win32 /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\sphinx_adtools\sphinx_pitch.c
+         sphinx_pitch.c
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\IFEFSR\Sphinx5\sphinxbase\\bin\Debug\sphinx_pitch.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\IFEFSR\Sphinx5\sphinxbase\\bin\Debug\sphinx_pitch.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\IFEFSR\Sphinx5\sphinxbase\\bin\Debug\sphinx_pitch.lib" /MACHINE:X86 /SAFESEH:NO Debug\sphinx_pitch.obj
+         F:\IFEFSR\Sphinx5\sphinxbase\bin\Debug\sphinxbase.lib
+         sphinx_pitch.vcxproj -> F:\IFEFSR\Sphinx5\sphinxbase\\bin\Debug\sphinx_pitch.exe
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxbase\win32\sphinx_pitch\sphinx_pitch.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35

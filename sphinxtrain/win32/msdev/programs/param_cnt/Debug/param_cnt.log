@@ -1,0 +1,33 @@
+﻿Build started 17/1/2559 17:47:11.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\param_cnt\param_cnt.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /I../../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\programs\param_cnt\cb_cnt.c ..\..\..\..\src\programs\param_cnt\enum_corpus.c ..\..\..\..\src\programs\param_cnt\main.c ..\..\..\..\src\programs\param_cnt\param_cnt.c ..\..\..\..\src\programs\param_cnt\parse_cmd_ln.c ..\..\..\..\src\programs\param_cnt\phone_cnt.c ..\..\..\..\src\programs\param_cnt\ts_cnt.c
+         ts_cnt.c
+         phone_cnt.c
+         parse_cmd_ln.c
+         param_cnt.c
+         main.c
+         enum_corpus.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\param_cnt\enum_corpus.c(116): warning C4013: 'str2words' undefined; assuming extern returning int
+         cb_cnt.c
+         Generating Code...
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\..\bin\Debug/param_cnt.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\sphinxbase\bin\Debug sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\..\..\..\bin\Debug/param_cnt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\..\bin\Debug\param_cnt.lib" /MACHINE:X86 /SAFESEH .\Debug/cb_cnt.obj
+         .\Debug/enum_corpus.obj
+         .\Debug/main.obj
+         .\Debug/param_cnt.obj
+         .\Debug/parse_cmd_ln.obj
+         .\Debug/phone_cnt.obj
+         .\Debug/ts_cnt.obj
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libclust.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libcommon.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libio.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmllr.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmodinv.lib
+     1>cb_cnt.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         param_cnt.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\param_cnt\.\..\..\..\..\bin\Debug\param_cnt.exe
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\param_cnt\param_cnt.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.93

@@ -1,0 +1,40 @@
+﻿Build started 17/1/2559 17:47:08.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\agg_seg\agg_seg.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../../include /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\programs\agg_seg\agg_all_seg.c ..\..\..\..\src\programs\agg_seg\agg_phn_seg.c ..\..\..\..\src\programs\agg_seg\agg_st_seg.c ..\..\..\..\src\programs\agg_seg\cnt_phn_seg.c ..\..\..\..\src\programs\agg_seg\cnt_st_seg.c ..\..\..\..\src\programs\agg_seg\main.c ..\..\..\..\src\programs\agg_seg\mk_seg.c ..\..\..\..\src\programs\agg_seg\parse_cmd_ln.c
+         parse_cmd_ln.c
+         mk_seg.c
+         main.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\agg_seg\main.c(231): warning C4244: '=' : conversion from 'double' to 'mfcc_t', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\agg_seg\main.c(236): warning C4244: '=' : conversion from 'double' to 'mfcc_t', possible loss of data
+         cnt_st_seg.c
+         cnt_phn_seg.c
+         agg_st_seg.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\agg_seg\agg_st_seg.c(261): warning C4018: '<' : signed/unsigned mismatch
+         agg_phn_seg.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\agg_seg\agg_phn_seg.c(107): warning C4013: 'str2words' undefined; assuming extern returning int
+         agg_all_seg.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\agg_seg\agg_all_seg.c(108): warning C4013: 'bio_fwrite' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\agg_seg\agg_all_seg.c(150): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\..\bin\Debug/agg_seg.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\sphinxbase\bin\Debug sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\..\..\..\bin\Debug/agg_seg.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\..\bin\Debug\agg_seg.lib" /MACHINE:X86 /SAFESEH .\Debug/agg_all_seg.obj
+         .\Debug/agg_phn_seg.obj
+         .\Debug/agg_st_seg.obj
+         .\Debug/cnt_phn_seg.obj
+         .\Debug/cnt_st_seg.obj
+         .\Debug/main.obj
+         .\Debug/mk_seg.obj
+         .\Debug/parse_cmd_ln.obj
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libclust.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libcommon.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libio.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmllr.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmodinv.lib
+     1>agg_all_seg.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         agg_seg.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\agg_seg\.\..\..\..\..\bin\Debug\agg_seg.exe
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\agg_seg\agg_seg.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.99

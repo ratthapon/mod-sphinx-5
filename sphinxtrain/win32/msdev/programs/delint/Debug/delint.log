@@ -1,0 +1,32 @@
+﻿Build started 17/1/2559 17:47:08.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\delint\delint.vcxproj" on node 7 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../../include /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\programs\delint\interp_fn.c ..\..\..\..\src\programs\delint\main.c ..\..\..\..\src\programs\delint\parse_cmd_ln.c
+         parse_cmd_ln.c
+         main.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\delint\main.c(366): warning C4244: '=' : conversion from 'float64' to 'float32', possible loss of data
+         interp_fn.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\delint\interp_fn.c(96): warning C4244: 'initializing' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\delint\interp_fn.c(103): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\delint\interp_fn.c(123): warning C4244: '=' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\delint\interp_fn.c(161): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\delint\interp_fn.c(196): warning C4244: '=' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\delint\interp_fn.c(198): warning C4244: '+=' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\delint\interp_fn.c(205): warning C4244: 'initializing' : conversion from 'double' to 'float32', possible loss of data
+         Generating Code...
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\..\bin\Debug/delint.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\sphinxbase\bin\Debug sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\..\..\..\bin\Debug/delint.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\..\bin\Debug\delint.lib" /MACHINE:X86 /SAFESEH .\Debug/interp_fn.obj
+         .\Debug/main.obj
+         .\Debug/parse_cmd_ln.obj
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libclust.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libcommon.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libio.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmllr.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmodinv.lib
+     1>interp_fn.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         delint.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\delint\.\..\..\..\..\bin\Debug\delint.exe
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\delint\delint.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.14

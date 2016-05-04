@@ -1,0 +1,28 @@
+﻿Build started 17/1/2559 17:45:19.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libcommon\libcommon.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         F:\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\..\..\..\..\lib\Release\libcommon.lib" sphinxbase.lib /LIBPATH:..\..\..\..\..\sphinxbase\bin\Release /NOLOGO .\Release/acmod_set.obj
+         .\Release/best_q.obj
+         .\Release/ck_seg.obj
+         .\Release/cvt2triphone.obj
+         .\Release/dtree.obj
+         .\Release/heap.obj
+         .\Release/itree.obj
+         .\Release/lexicon.obj
+         .\Release/mk_phone_list.obj
+         .\Release/mk_phone_seq.obj
+         .\Release/mk_sseq.obj
+         .\Release/mk_trans_seq.obj
+         .\Release/mk_ts2ci.obj
+         .\Release/quest.obj
+         .\Release/remap.obj
+         .\Release/state_seq.obj
+         .\Release/ts2cb.obj
+         .\Release/vector.obj
+         .\Release/was_added.obj
+         libcommon.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libcommon\.\..\..\..\..\lib\Release\libcommon.lib
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libcommon\libcommon.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

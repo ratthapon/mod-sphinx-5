@@ -1,0 +1,136 @@
+﻿Build started 17/1/2559 17:46:59.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libio\libio.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\include /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\libs\libio\corpus.c ..\..\..\..\src\libs\libio\model_def_io.c ..\..\..\..\src\libs\libio\pset_io.c ..\..\..\..\src\libs\libio\s3acc_io.c ..\..\..\..\src\libs\libio\s3cb2mllr_io.c ..\..\..\..\src\libs\libio\s3gau_full_io.c ..\..\..\..\src\libs\libio\s3gau_io.c ..\..\..\..\src\libs\libio\s3io.c ..\..\..\..\src\libs\libio\s3lamb_io.c ..\..\..\..\src\libs\libio\s3map_io.c ..\..\..\..\src\libs\libio\s3mixw_io.c ..\..\..\..\src\libs\libio\s3phseg_io.c ..\..\..\..\src\libs\libio\s3tmat_io.c ..\..\..\..\src\libs\libio\s3ts2cb_io.c ..\..\..\..\src\libs\libio\segdmp.c ..\..\..\..\src\libs\libio\swap.c ..\..\..\..\src\libs\libio\topo_read.c
+         topo_read.c
+         swap.c
+         segdmp.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\segdmp.c(135): warning C4013: 'bio_fwrite' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\segdmp.c(199): warning C4013: 'bio_fread' undefined; assuming extern returning int
+         s3ts2cb_io.c
+         s3tmat_io.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3tmat_io.c(142): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3tmat_io.c(143): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3tmat_io.c(144): warning C4018: '<' : signed/unsigned mismatch
+         s3phseg_io.c
+         s3mixw_io.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3mixw_io.c(88): warning C4013: 'bio_fread_3d' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3mixw_io.c(104): warning C4013: 'bio_fread' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3mixw_io.c(157): warning C4013: 'bio_fread_intv_3d' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3mixw_io.c(213): warning C4013: 'bio_fwrite_3d' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3mixw_io.c(224): warning C4013: 'bio_fwrite' undefined; assuming extern returning int
+         s3map_io.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3map_io.c(88): warning C4013: 'bio_fread' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3map_io.c(99): warning C4013: 'bio_fread_1d' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3map_io.c(146): warning C4013: 'bio_fwrite' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3map_io.c(152): warning C4013: 'bio_fwrite_1d' undefined; assuming extern returning int
+         s3lamb_io.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3lamb_io.c(85): warning C4013: 'bio_fread_1d' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3lamb_io.c(97): warning C4013: 'bio_fread' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3lamb_io.c(136): warning C4013: 'bio_fwrite_1d' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3lamb_io.c(141): warning C4013: 'bio_fwrite' undefined; assuming extern returning int
+         s3io.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(119): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(120): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(635): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(336) : see declaration of 'open'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(640): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(337) : see declaration of 'read'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(643): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(649): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(658): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(661): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(337) : see declaration of 'read'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(664): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(668): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(687): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(336) : see declaration of 'open'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(693): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(337) : see declaration of 'read'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(697): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(703): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(714): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(717): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(337) : see declaration of 'read'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(721): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(725): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(742): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(336) : see declaration of 'open'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(750): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(342) : see declaration of 'write'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(754): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(762): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(342) : see declaration of 'write'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(766): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3io.c(773): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+         s3gau_io.c
+         s3gau_full_io.c
+         s3cb2mllr_io.c
+         s3acc_io.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3acc_io.c(308): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3acc_io.c(437): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\s3acc_io.c(560): warning C4018: '<' : signed/unsigned mismatch
+         pset_io.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\pset_io.c(97): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\pset_io.c(111): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+         model_def_io.c
+         corpus.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(213): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(216): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(262): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(273): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(295): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(1137): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(1303): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(1338): warning C4013: 'areadfloat' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(1342): warning C4013: 'areadfloat_part' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(1412): warning C4013: 'areadshort' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\libs\libio\corpus.c(1521): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+         Generating Code...
+       Lib:
+         F:\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\..\..\..\..\lib\Debug\libio.lib" sphinxbase.lib /LIBPATH:..\..\..\..\..\sphinxbase\bin\Debug /NOLOGO .\Debug/corpus.obj
+         .\Debug/model_def_io.obj
+         .\Debug/pset_io.obj
+         .\Debug/s3acc_io.obj
+         .\Debug/s3cb2mllr_io.obj
+         .\Debug/s3gau_full_io.obj
+         .\Debug/s3gau_io.obj
+         .\Debug/s3io.obj
+         .\Debug/s3lamb_io.obj
+         .\Debug/s3map_io.obj
+         .\Debug/s3mixw_io.obj
+         .\Debug/s3phseg_io.obj
+         .\Debug/s3tmat_io.obj
+         .\Debug/s3ts2cb_io.obj
+         .\Debug/segdmp.obj
+         .\Debug/swap.obj
+         .\Debug/topo_read.obj
+         libio.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libio\.\..\..\..\..\lib\Debug\libio.lib
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\libs\libio\libio.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.90

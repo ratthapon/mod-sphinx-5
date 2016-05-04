@@ -1,0 +1,37 @@
+﻿Build started 17/1/2559 17:47:09.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\make_quests\make_quests.vcxproj" on node 7 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../../include /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\programs\make_quests\main.c ..\..\..\..\src\programs\make_quests\parse_cmd_ln.c
+         parse_cmd_ln.c
+         main.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(128): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(139): warning C4244: '+=' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(144): warning C4244: '-=' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(172): warning C4305: '=' : truncation from 'double' to 'float32'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(260): warning C4305: '=' : truncation from 'double' to 'float32'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(729): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(930): warning C4244: '/=' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(931): warning C4244: '=' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(943): warning C4244: '=' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(969): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(1068): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(1071): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(1078): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(1080): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\make_quests\main.c(1081): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\..\bin\Debug/make_quests.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\sphinxbase\bin\Debug sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\..\..\..\bin\Debug/make_quests.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\..\bin\Debug\make_quests.lib" /MACHINE:X86 /SAFESEH .\Debug/main.obj
+         .\Debug/parse_cmd_ln.obj
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libclust.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libcommon.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libio.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmllr.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmodinv.lib
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         make_quests.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\make_quests\.\..\..\..\..\bin\Debug\make_quests.exe
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\make_quests\make_quests.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.70

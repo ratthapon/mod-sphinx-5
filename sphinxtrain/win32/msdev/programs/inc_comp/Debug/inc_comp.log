@@ -1,0 +1,28 @@
+﻿Build started 17/1/2559 17:47:08.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\inc_comp\inc_comp.vcxproj" on node 6 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../../include /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\programs\inc_comp\accum_wt_param.c ..\..\..\..\src\programs\inc_comp\inc_densities.c ..\..\..\..\src\programs\inc_comp\main.c ..\..\..\..\src\programs\inc_comp\parse_cmd_ln.c
+         parse_cmd_ln.c
+         main.c
+         inc_densities.c
+         accum_wt_param.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\inc_comp\accum_wt_param.c(90): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 f:\microsoft visual studio 12.0\vc\include\io.h(323) : see declaration of 'access'
+         Generating Code...
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\..\bin\Debug/inc_comp.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\sphinxbase\bin\Debug sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\..\..\..\bin\Debug/inc_comp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\..\bin\Debug\inc_comp.lib" /MACHINE:X86 /SAFESEH .\Debug/accum_wt_param.obj
+         .\Debug/inc_densities.obj
+         .\Debug/main.obj
+         .\Debug/parse_cmd_ln.obj
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libclust.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libcommon.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libio.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmllr.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmodinv.lib
+     1>accum_wt_param.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         inc_comp.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\inc_comp\.\..\..\..\..\bin\Debug\inc_comp.exe
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\inc_comp\inc_comp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15

@@ -1,0 +1,45 @@
+﻿Build started 17/1/2559 17:47:09.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\kmeans_init\kmeans_init.vcxproj" on node 8 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../../include /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\programs\kmeans_init\main.c ..\..\..\..\src\programs\kmeans_init\parse_cmd_ln.c
+         parse_cmd_ln.c
+         main.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(262): warning C4013: 'bio_fread' undefined; assuming extern returning int
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(453): warning C4244: '=' : conversion from 'double' to 'mfcc_t', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(458): warning C4244: '=' : conversion from 'double' to 'mfcc_t', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(586): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(587): warning C4244: '=' : conversion from 'float32' to 'uint32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(644): warning C4244: 'return' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(923): warning C4244: '+=' : conversion from 'float64' to 'float', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(930): warning C4244: '*=' : conversion from 'float64' to 'float', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(983): warning C4244: '*=' : conversion from 'float64' to 'float', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1085): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1106): warning C4244: 'function' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1117): warning C4244: '+=' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1119): warning C4244: '+=' : conversion from 'float64' to 'float', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1124): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1126): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1158): warning C4244: 'function' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1173): warning C4244: '+=' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1175): warning C4244: '+=' : conversion from 'float64' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1183): warning C4244: '+=' : conversion from 'float64' to 'float', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1186): warning C4244: '+=' : conversion from 'float64' to 'float', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1222): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1226): warning C4244: '=' : conversion from 'double' to 'float32', possible loss of data
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\kmeans_init\main.c(1385): warning C4018: '>' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\..\bin\Debug/kmeans_init.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\sphinxbase\bin\Debug sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\..\..\..\bin\Debug/kmeans_init.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\..\bin\Debug\kmeans_init.lib" /MACHINE:X86 /SAFESEH .\Debug/main.obj
+         .\Debug/parse_cmd_ln.obj
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libclust.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libcommon.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libio.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmllr.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmodinv.lib
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         kmeans_init.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\kmeans_init\.\..\..\..\..\bin\Debug\kmeans_init.exe
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\kmeans_init\kmeans_init.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.35

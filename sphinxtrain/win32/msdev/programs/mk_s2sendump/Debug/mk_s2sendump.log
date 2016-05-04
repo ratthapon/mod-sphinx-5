@@ -1,0 +1,43 @@
+﻿Build started 17/1/2559 17:47:10.
+     1>Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\mk_s2sendump\mk_s2sendump.vcxproj" on node 6 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../../include /I..\..\..\..\..\sphinxbase\include\win32 /I..\..\..\..\..\sphinxbase\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\src\programs\mk_s2sendump\mk_s2sendump.c ..\..\..\..\src\programs\mk_s2sendump\parse_cmd_ln.c ..\..\..\..\src\programs\mk_s2sendump\senone.c
+         senone.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(122): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(134): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(164): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(166): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(171): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(177): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(186): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(190): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(260): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(265): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(293): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(298): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\senone.c(307): warning C4244: 'function' : conversion from 'float64' to 'float32', possible loss of data
+         parse_cmd_ln.c
+         mk_s2sendump.c
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(121): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(142): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(152): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(157): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(240): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\ifefsr\sphinx5\sphinxtrain\src\programs\mk_s2sendump\mk_s2sendump.c(247): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\..\..\bin\Debug/mk_s2sendump.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\..\sphinxbase\bin\Debug sphinxbase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\..\..\..\bin\Debug/mk_s2sendump.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\..\..\..\bin\Debug\mk_s2sendump.lib" /MACHINE:X86 /SAFESEH .\Debug/mk_s2sendump.obj
+         .\Debug/parse_cmd_ln.obj
+         .\Debug/senone.obj
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libclust.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libcommon.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libio.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmllr.lib
+         F:\IFEFSR\Sphinx5\sphinxtrain\lib\Debug\libmodinv.lib
+     1>mk_s2sendump.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         mk_s2sendump.vcxproj -> F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\mk_s2sendump\.\..\..\..\..\bin\Debug\mk_s2sendump.exe
+     1>Done Building Project "F:\IFEFSR\Sphinx5\sphinxtrain\win32\msdev\programs\mk_s2sendump\mk_s2sendump.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.73
