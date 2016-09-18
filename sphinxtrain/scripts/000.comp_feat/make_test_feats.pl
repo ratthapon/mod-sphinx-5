@@ -101,10 +101,11 @@ if (defined($warp)) {
 }
 
 my $rv = RunTool('sphinx_fe', $logfile, $ctlcount,
+		  -alpha => $ST::CFG_ALPHA,
 		  -c => $ctlfile,
 		  -part => $part,
 		  -npart => $npart,
-		  -di => $ST::CFG_WAVFILES_DIR,
+		  -di => $ST::CFG_TEST_WAVFILES_DIR,
 		  -ei => $ST::CFG_WAVFILE_EXTENSION,
 		  -do => $outfolder,
 		  -eo => $ST::CFG_FEATFILE_EXTENSION,
